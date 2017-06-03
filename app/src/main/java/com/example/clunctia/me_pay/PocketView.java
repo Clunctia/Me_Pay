@@ -10,5 +10,5 @@ import Data.Pocket;
 
 public interface PocketView {
     void displayPocket(ArrayList<Pocket> pockets);
-    void createDialog(int a);
+    void createDialog(int b);
 }

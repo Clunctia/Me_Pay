@@ -19,4 +19,43 @@
 
     </RelativeLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/search_by_radiogroup"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/search_by_days_radiobutton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton
+                android:id="@+id/search_by_weeks_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of Logs"/>
+
+    <ListView
+        android:id="@+id/show_list_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
 </android.support.constraint.ConstraintLayout>

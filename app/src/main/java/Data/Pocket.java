@@ -7,6 +7,7 @@ package Data;
 public class Pocket {
     private double amount;
     private static Pocket instance;
+    private User user;
 
     public Pocket(){
         amount = 0;
