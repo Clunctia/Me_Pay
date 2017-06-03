@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Me_Pay</string>
+    <string-array name="account_array">
+        <item>Account</item>
+        <item>Check Fund</item>
+        <item>Add Fund</item>
+    </string-array>
 </resources>
