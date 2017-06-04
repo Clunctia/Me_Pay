@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        presenter = new PocketPresenter();
+        //presenter = new PocketPresenter();
 
-        initializeSpinner();
-        initializeRadioButton();
+        //initializeSpinner();
+        //initializeRadioButton();
     }
 
     public void createCheckFundDialog() {

@@ -11,6 +11,7 @@ public class Pocket {
 
     public Pocket(){
         amount = 0;
+        user = user.getInstance();
     }
 
     public double updateAmount(double amount){

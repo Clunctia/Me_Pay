@@ -17,4 +17,10 @@ public class Paid {
         logs = new Log();
     }
 
+    public String getName(){
+        return name;
+    }
+
+
+
 }

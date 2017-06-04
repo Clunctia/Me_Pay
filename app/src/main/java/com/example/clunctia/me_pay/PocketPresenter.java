@@ -12,7 +12,7 @@ import Data.User;
 public class PocketPresenter implements Observer{
 
     private User user;
-    PocketView view;
+    private PocketView view;
 
     public PocketPresenter(){
         user.getInstance();
